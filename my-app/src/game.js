@@ -1,7 +1,5 @@
 import React from "react";
-import { Board } from "./board";
-import { calculateWinner } from "./board";
-
+import { Board, calculateWinner } from "./board";
 export class Game extends React.Component {
     constructor(props) {
       super(props);
